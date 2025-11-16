@@ -1,0 +1,37 @@
+<div animate.enter="fade-in">
+  <h1 class="text-3xl mb-4">Papers</h1>
+
+  <div class="flex justify-between items-start">
+    <div>
+      <div class="text-xl font-semibold">A Probabilistic Analysis of Simplified Cluedo with Storm: The Birthday Cake Case</div>
+      <div class="text-gray-300"><a href="https://orcid.org/0000-0002-8004-6601" target="_blank" rel="noopener noreferrer">Ezio Bartocci</a>,
+        <a href="https://orcid.org/0000-0003-2410-3314" target="_blank" rel="noopener noreferrer">Josée Desharnais</a>,
+        <a href="https://orcid.org/0009-0008-1558-8595" target="_blank" rel="noopener noreferrer">Peter Lindner</a>,
+        <a href="https://orcid.org/0000-0002-8384-3438" target="_blank" rel="noopener noreferrer">Ana Sokolova</a>
+      </div>
+      <div class="text-gray-400 mt-1">
+        <em>2025: In <a href="https://link.springer.com/book/10.1007/978-3-031-75775-4" target="_blank" rel="noopener noreferrer">LNCS volume 15261</a></em>
+      </div>
+    </div>
+      <button matMiniFab class="ml-4" (click)="openDoi('https://doi.org/10.1007/978-3-031-75775-4_4')">
+        <mat-icon class="doi-icon">language</mat-icon>
+      </button>
+  </div>
+
+  <h1 class="text-3xl mb-4 mt-10">Theses</h1>
+
+  <div class="space-y-6">
+
+    <div class="flex justify-between items-start">
+      <div>
+        <div class="text-xl font-semibold">Verifying Mutual Exclusion with TLA⁺</div>
+        <div class="text-gray-300">Bachelor's Thesis, supervised by <a href="https://www.cs.uni-salzburg.at/~anas/" target="_blank" rel="noopener noreferrer">Prof. Sokolova</a></div>
+      </div>
+      <button matMiniFab class="ml-4" (click)="openDoi('https://doi.org/10.1007/978-3-031-75775-4_4')">
+        <mat-icon class="doi-icon">download</mat-icon>
+      </button>
+    </div>
+
+  </div>
+
+</div>

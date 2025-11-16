@@ -1,0 +1,58 @@
+.header {
+  border-color: cadetblue;
+}
+
+.header-button {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header-button-active {
+  color: var(--mat-sys-primary);
+  text-decoration: none;
+}
+
+.mat-grid-tile-content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bio-icon {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.bio-custom-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  transform: scale(0.9);   /* smaller icon */
+  transform-origin: center; /* centered */
+}
+
+.bio-custom-icon img {
+  width: 14px;       /* smaller actual icon */
+  height: 14px;
+  object-fit: contain;
+}
+
+.footer {
+  border-color: cadetblue;
+}
+
+.footer-icon {
+  font-size: 14px;
+  width: 14px;       /* smaller actual icon */
+  height: 14px;
+}
+
+.footer-icon:hover {
+  cursor: pointer;
+  color: red;
+}
