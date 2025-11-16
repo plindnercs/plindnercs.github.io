@@ -63,10 +63,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "plindner-website:build:production"
+              "buildTarget": "plindnercs.github.io:build:production"
             },
             "development": {
-              "buildTarget": "plindner-website:build:development"
+              "buildTarget": "plindnercs.github.io:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular/build:extract-i18n",
           "options": {
-            "buildTarget": "plindner-website:build"
+            "buildTarget": "plindnercs.github.io:build"
           }
         },
         "test": {

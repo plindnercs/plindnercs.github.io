@@ -18,9 +18,20 @@
       </button>
   </div>
 
-  <h1 class="text-3xl mb-4 mt-10">Theses</h1>
+  <h1 class="text-3xl mb-4 mt-10">Theses & Seminar Papers</h1>
 
   <div class="space-y-6">
+
+    <div class="flex justify-between items-start">
+      <div>
+        <div class="text-xl font-semibold">An Introduction to Robust Markov Decision Processes</div>
+        <div class="text-gray-300">Seminar paper for the <a href="https://moves.rwth-aachen.de/teaching/ss-25/mcseminar/" target="_blank" rel="noopener noreferrer">Trends in Model Checking Seminar</a>,
+          supervised by <a href="https://moves.rwth-aachen.de/people/darion-haase/" target="_blank" rel="noopener noreferrer">Darion Haase</a></div>
+      </div>
+      <button matMiniFab class="ml-4" (click)="openDoi('/assets/trends_in_mc_sem_robust_mdps.pdf')">
+        <mat-icon class="doi-icon">download</mat-icon>
+      </button>
+    </div>
 
     <div class="flex justify-between items-start">
       <div>
