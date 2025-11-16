@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "plindner-website": {
+    "plindnercs.github.io": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/plindner-website",
+            "outputPath": "dist/plindnercs.github.io",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
